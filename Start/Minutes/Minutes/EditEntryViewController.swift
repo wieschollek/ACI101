@@ -1,5 +1,6 @@
 import Foundation
 import UIKit
+import AppCenterCrashes
 
 class EditEntryViewController: UIViewController
 {
@@ -26,6 +27,8 @@ class EditEntryViewController: UIViewController
 
     @objc func onSave(_ sender: UIBarButtonItem)
     {
+        MSCrashes.generateTestCrash()
+        
         entry?.title = titleTextField.text!
         entry?.content = contentTextView.text!
         
