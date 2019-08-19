@@ -8,6 +8,14 @@
 
 /* Begin PBXBuildFile section */
 		074E315D2306D62D0083FA5E /* MyFirstTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 074E315C2306D62D0083FA5E /* MyFirstTest.swift */; };
+		076B0FA7230A81C900D7038F /* AppCenterDistribute.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 076B0FA0230A81C500D7038F /* AppCenterDistribute.framework */; };
+		076B0FA8230A81C900D7038F /* AppCenterCrashes.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 076B0FA1230A81C500D7038F /* AppCenterCrashes.framework */; };
+		076B0FA9230A81C900D7038F /* AppCenter.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 076B0FA2230A81C700D7038F /* AppCenter.framework */; };
+		076B0FAA230A81C900D7038F /* AppCenterAnalytics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 076B0FA3230A81C700D7038F /* AppCenterAnalytics.framework */; };
+		076B0FAB230A81C900D7038F /* AppCenterAuth.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 076B0FA4230A81C800D7038F /* AppCenterAuth.framework */; };
+		076B0FAC230A81C900D7038F /* AppCenterData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 076B0FA5230A81C800D7038F /* AppCenterData.framework */; };
+		076B0FAD230A81C900D7038F /* AppCenterPush.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 076B0FA6230A81C900D7038F /* AppCenterPush.framework */; };
+		076B0FAF230A81DE00D7038F /* AppCenterDistributeResources.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 076B0FAE230A81DE00D7038F /* AppCenterDistributeResources.bundle */; };
 		D3048F28202E2B2D00D45D7E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3048F27202E2B2D00D45D7E /* AppDelegate.swift */; };
 		D3048F2D202E2B2D00D45D7E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D3048F2B202E2B2D00D45D7E /* Main.storyboard */; };
 		D3048F2F202E2B2D00D45D7E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D3048F2E202E2B2D00D45D7E /* Assets.xcassets */; };
@@ -32,6 +40,14 @@
 		074E315A2306D62D0083FA5E /* MyFirstTest.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MyFirstTest.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		074E315C2306D62D0083FA5E /* MyFirstTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyFirstTest.swift; sourceTree = "<group>"; };
 		074E315E2306D62D0083FA5E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		076B0FA0230A81C500D7038F /* AppCenterDistribute.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = AppCenterDistribute.framework; sourceTree = "<group>"; };
+		076B0FA1230A81C500D7038F /* AppCenterCrashes.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = AppCenterCrashes.framework; sourceTree = "<group>"; };
+		076B0FA2230A81C700D7038F /* AppCenter.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = AppCenter.framework; sourceTree = "<group>"; };
+		076B0FA3230A81C700D7038F /* AppCenterAnalytics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = AppCenterAnalytics.framework; sourceTree = "<group>"; };
+		076B0FA4230A81C800D7038F /* AppCenterAuth.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = AppCenterAuth.framework; sourceTree = "<group>"; };
+		076B0FA5230A81C800D7038F /* AppCenterData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = AppCenterData.framework; sourceTree = "<group>"; };
+		076B0FA6230A81C900D7038F /* AppCenterPush.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = AppCenterPush.framework; sourceTree = "<group>"; };
+		076B0FAE230A81DE00D7038F /* AppCenterDistributeResources.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = AppCenterDistributeResources.bundle; sourceTree = "<group>"; };
 		D3048F24202E2B2D00D45D7E /* Minutes.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Minutes.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D3048F27202E2B2D00D45D7E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D3048F2C202E2B2D00D45D7E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -56,6 +72,13 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				076B0FA7230A81C900D7038F /* AppCenterDistribute.framework in Frameworks */,
+				076B0FA9230A81C900D7038F /* AppCenter.framework in Frameworks */,
+				076B0FAD230A81C900D7038F /* AppCenterPush.framework in Frameworks */,
+				076B0FAA230A81C900D7038F /* AppCenterAnalytics.framework in Frameworks */,
+				076B0FAB230A81C900D7038F /* AppCenterAuth.framework in Frameworks */,
+				076B0FA8230A81C900D7038F /* AppCenterCrashes.framework in Frameworks */,
+				076B0FAC230A81C900D7038F /* AppCenterData.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -71,9 +94,25 @@
 			path = MyFirstTest;
 			sourceTree = "<group>";
 		};
+		076B0F9F230A815400D7038F /* App Center */ = {
+			isa = PBXGroup;
+			children = (
+				076B0FAE230A81DE00D7038F /* AppCenterDistributeResources.bundle */,
+				076B0FA2230A81C700D7038F /* AppCenter.framework */,
+				076B0FA3230A81C700D7038F /* AppCenterAnalytics.framework */,
+				076B0FA4230A81C800D7038F /* AppCenterAuth.framework */,
+				076B0FA1230A81C500D7038F /* AppCenterCrashes.framework */,
+				076B0FA5230A81C800D7038F /* AppCenterData.framework */,
+				076B0FA0230A81C500D7038F /* AppCenterDistribute.framework */,
+				076B0FA6230A81C900D7038F /* AppCenterPush.framework */,
+			);
+			path = "App Center";
+			sourceTree = "<group>";
+		};
 		D3048F1B202E2B2D00D45D7E = {
 			isa = PBXGroup;
 			children = (
+				076B0F9F230A815400D7038F /* App Center */,
 				D3048F26202E2B2D00D45D7E /* Minutes */,
 				074E315B2306D62D0083FA5E /* MyFirstTest */,
 				D3048F25202E2B2D00D45D7E /* Products */,
@@ -198,6 +237,7 @@
 				D3048F32202E2B2D00D45D7E /* LaunchScreen.storyboard in Resources */,
 				D3048F2F202E2B2D00D45D7E /* Assets.xcassets in Resources */,
 				D3048F2D202E2B2D00D45D7E /* Main.storyboard in Resources */,
+				076B0FAF230A81DE00D7038F /* AppCenterDistributeResources.bundle in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -409,10 +449,20 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = B8MKEJ9N9F;
+				DEVELOPMENT_TEAM = 2V7A8NU9SC;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/App\\ Center",
+					"$(PROJECT_DIR)/App\\ Center",
+					"$(PROJECT_DIR)/App\\ Center",
+					"$(PROJECT_DIR)/App\\ Center",
+					"$(PROJECT_DIR)/App\\ Center",
+					"$(PROJECT_DIR)/App\\ Center",
+					"$(PROJECT_DIR)/App\\ Center",
+				);
 				INFOPLIST_FILE = Minutes/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.microsoft.Minutes;
+				PRODUCT_BUNDLE_IDENTIFIER = com.xam.avanti.Minutes;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -424,10 +474,20 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = B8MKEJ9N9F;
+				DEVELOPMENT_TEAM = 2V7A8NU9SC;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/App\\ Center",
+					"$(PROJECT_DIR)/App\\ Center",
+					"$(PROJECT_DIR)/App\\ Center",
+					"$(PROJECT_DIR)/App\\ Center",
+					"$(PROJECT_DIR)/App\\ Center",
+					"$(PROJECT_DIR)/App\\ Center",
+					"$(PROJECT_DIR)/App\\ Center",
+				);
 				INFOPLIST_FILE = Minutes/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.microsoft.Minutes;
+				PRODUCT_BUNDLE_IDENTIFIER = com.xam.avanti.Minutes;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
